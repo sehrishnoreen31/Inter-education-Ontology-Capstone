@@ -1,0 +1,3194 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+    }, {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"
+    }, {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"
+    }, {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+    }, {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+    }, {
+      "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology represents the knowledge about Intermediate Education in Punjab, Pakistan."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#1st_Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "11th class in college level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1st_Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#2nd_Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "12th class in college level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "2nd_Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academic_Calendar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Includes educational activities' dates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Academic_Calendar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Anything related to education."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics_Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Academics_Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Accounts_Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Manages the financial resources of an Institue."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accounts_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Teaching_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Administrative_Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Responsible for overall admiinistration of an institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Teaching_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The process or fact of entering or being allowed\nto enter a place or institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Admission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission_FormNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admmision_In_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Announces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#AnnualExam_RollNo_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Roll no slip to appear in annual exam."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AnnualExam_RollNo_Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Annual exams in the end of an academic year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Annual_Exams"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Exams"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams2022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Annual board result of 1st/2nd year,  students."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Annual_Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Result"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Result"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Approves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are__Granted_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Board of Intermediate and Secondary Education.\nOperates under Govt. of Punjab Province.\nManages exams and results of board students mainly, in Punjab."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Approves" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Comp_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Comp_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Elective_Subjects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Comp_Sujects"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Elective_Subjects"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BISE_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Bahawalpur_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bahawalpur Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Belongs_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Province"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Exams that students (in Punjab, Pakistan) take every year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Board_Exams"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Registration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Students need to register themselves in \"Board of Intermediate and Secondary Education Punjab\", in order to appear in exams."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Board_Registration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Board Results are annouced by Board of Intemediate and Secondary Education (BISE) after exams."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Board_Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_College_RollNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_ContactNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Date_of_Birth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Disability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Father_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Home_Address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_Board_RollNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_Marks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_YearofPassing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Previous_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Registration_Fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Required_Qualification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Chairman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Head of an institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chairman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED_PCTB_BISE_Officials"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#1st_Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Class11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#2nd_Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Class12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate Education commonly comprises two years of time span and two classes(1st year and 2nd year).\nSome Intermediate programs can have  3 years duration also."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Classes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_Commencement_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_End_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Form that  is filled by students or their guardians to take admission in an educational institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Campus_Facilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Facilities provided by institutes I.e. Colleges."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "On_Campus_Facilities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Colour_Day",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Events"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Colour_Day"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Competent_Faculity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Campus_Facilities"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Competent_Faculity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Comprise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Compulsory Subjects are essential for completeing the relevant degree."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Conducts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sovereign homeland with a border."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Covers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Cultural_Festival",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Events"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural_Festival"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DGKhan_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DGKhan_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Datesheet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Includes exams schedule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Datesheet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Datesheet2022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Datesheet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Datesheet2022"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Degrees_Offered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Deputy_Suprintendent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Takes directions form Suprintendent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deputy_Suprintendent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Division",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Area of the country, shorter than province."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Paper that provides some information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Documents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DurationH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Ehsaas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarships"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ehsaas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Eid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Elective subject are optional, not compulsory."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics_Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "English_as_Official_Academics_Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Enrolls_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Events",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A planned, private or  public ocassion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Events"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Exam_Center",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Place where exam is conducted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Exam_Center"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "People involved in conducting the examination."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Examination_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Two year degree Program offered after matric(10 year education)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_IT"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Computer\n6. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIT_Comp_Sujbects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_IT"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Civics\n2. Phy. Education\n3. Economics\n4. English Literature\n5. Home Economics\n6. Islamiyat Elective"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIT_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIT_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Admission_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_Admission_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_General"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_Comp_Sujbects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_General"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "Group I\nStatistics\nGeography\nEnglish Literature\nLanguages\nAdvance Urdu\nFrench\nPersian\nPunjabi,\n\n\nGroup II\nMathematics\nPhilosophy\nCivics\nFine Arts\nEducation,\n\nGroup III\nEconomics\nPsychology\nIslamic History\nWorld History\nMusic\nPhysical Education"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_General",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n\n\n(Elective Groups)\n\nGroup I\nStatistics\nGeography\nEnglish Literature\nLanguages\nAdvance Urdu\nFrench\nPersian\nPunjabi\n\n\nGroup II\nMathematics\nPhilosophy\nCivics\nFine Arts\nEducation\n\nGroup III\nEconomics\nPsychology\nIslamic History\nWorld History\nMusic\nPhysical Education"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_General"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_IT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Computer\n6. Tarjuma tul Quran\n7. Civics\n8. Phy. Education\n9. Economics\n10. English Literature\n11. Home Economics\n12. Islamiyat Elective"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_IT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FA_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Two year degree Program offered after matric(10 year education)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Admission_Forn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Admission_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Engi_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Engi_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Med_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Med_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 years"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Physics\n7. Chemistry\n8. Mathematics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Engineering_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Physics\n2. Chemistry\n3. Mathematics"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Engineering_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Physics\n7. Chemistry\n8. Biology"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Medical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Medical_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Biology \n2. Chemistry \n3. Physics"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Pre_Medical_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Registration_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Registration_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Result_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Result_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSc_Result_Card"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Faisalabad_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Faisalabad_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Fills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents places in planet Earth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geographics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Government_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Colleges that are funded and regulated by Govt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Government_College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_Commencement_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-05-02T09:30:00"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_End_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-03-02T02:30:00"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Government_College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gujranwala_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gujranwala_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Hafiz_e_Quran",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A specific day when all business education and other activities are suspended. \nHoliday is a day of recreation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Holidays"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Two year degree Program offered after matric(10 year education)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Principle of Accounting\n7. Principle of Eco. & Commercial Geo\n8. Principle of Commerce & Banking\n9. Business Mathematics & Statistics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Admission_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com_Admission_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Comp_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Principle of Accounting\n2. Principle of Eco. & Commercial Geo\n3. Principle of Commerce & Banking\n4. Business Mathematics & Statistics"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "I.Com_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Two year degree Program offered after matric(10 year education)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Admission_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Admission_Form"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Eco_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Eco_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Economics\n7. Mathematics\n8. Computer Science"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Economics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Economics_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Economics\n2. Mathematics\n3. Computer Science"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Economics_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Physics\n7. Mathematics\n8. Computer Science"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Physics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Comp_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Physics_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Physics\n2. Mathematics\n3. Computer Science"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Physics_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Physics_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration" : [ {
+    "@value" : "2 Year"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran\n6. Statistics\n7. Mathematics\n8. Computer Science"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Comp_Sujects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Urdu\n2. English\n3. Islamic Studies (Part-I)\n4. Pakistan Studies (Part-II)\n5. Tarjuma tul Quran"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Statistics_Comp_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Elective_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name" : [ {
+    "@value" : "1. Statistics\n2. Mathematics\n3. Computer Science"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Statistics_Elective_Subjects"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Stats_Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL" : [ {
+    "@value" : "Check on Link: \nhttps://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICS_Stats_Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Includes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organization, that follows some specific practices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intermdiate Programs start after 10 years of education. \nThey commonly include class 11th and 10th.\nI.e. FSc, ICS, FA, I.com"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inter_Programs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Invagilator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Enforces decipline in examination hall."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Invagilator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Iqbal_Day",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Iqbal_Day"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Is_follwed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academic_Calendar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Kiran_Anwar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Covers" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Engi_Syllabus"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Fills" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Admission_Forn"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo" : [ {
+    "@value" : "38402-0217721-8"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo" : [ {
+    "@value" : "18"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email" : [ {
+    "@value" : "kirananwar@gmail.com"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name" : [ {
+    "@value" : "Anwar"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo" : [ {
+    "@value" : "0304-5678901"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams2022"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_admission_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kiran_Anwar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Lab_Attendant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mnages the lab."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lab_Attendant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Teaching_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Lahore_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lahore_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Last_Date_of_Registration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Maintains_discipline_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Invagilator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Exam_Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Makes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Manages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Multan_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Multan_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Co-curricular activities in educational institutes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Teaching_Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Employees in educational intitues other than the teachers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non_Teaching_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Opens_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Operates_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Province"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Punjab Curriculum and textbook Board, operates under Govt. of Punjab Province,\nPCTB provides the syllabus for students in Pujab Govt. and affiliated institutes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PCTB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB_",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Makes" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Engi_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Med_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Eco_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Syllabus"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Stats_Syllabus"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PCTB_"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PEEF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarships"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PEEF"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Punjab Higher Education Department. Operates under Govt. of Punjab Province."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PHED"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED_PCTB_BISE_Officials",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Official/ authorities in PHED, PCTB and BISE."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PHED_PCTB_BISE_Officials"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Pakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pakistan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Past_Papers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Previous papers of a class/grade."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Past_Papers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A human being."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practical_Exams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Practical exams (after annual exams mostly) in the end of an academic year (in Punjab, Pakistan)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Practical_Exams"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practicals_Advisor_at_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Teaches students about practical work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Practicals_Advisor_at_College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaching_Staff"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teacher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practicals_RollNo_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Roll no slip to appear in practical exam."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Practicals_RollNo_Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Private_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Colleges that are funded and regulated by private organizations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Private_College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provide_facilities_for",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provides_students_with",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provides_the",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Providse_Support_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An administrative part of a country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Province"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Punjab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Province"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Punjab"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Quaid_Day",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quid_Day"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabia_Ehsan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Covers" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Syllabus"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Enrolls_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Fills" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Admission_Form"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo" : [ {
+    "@value" : "38402-0897721-8"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo" : [ {
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email" : [ {
+    "@value" : "Rabiaehsan@gmail.com"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name" : [ {
+    "@value" : "Ehsan"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo" : [ {
+    "@value" : "0303-7894561"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams2022"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_admission_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rabia_Ehsan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabiulawal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rabiulawal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rawalpindi_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rawalpindi_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admits" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Kiran_Anwar"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabia_Ehsan"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_Commencement_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2012-08-02T09:30:00"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_End_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-03-01T02:30:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Private_College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reapeat_RollNo_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "RollNo slip for failed students who want to improve grades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reapeat_RollNo_Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A form that is filled and submitted by a candidate to an institute to get membership of that particular institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Exams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Exams for improvement in grades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reapeat_Exams"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Board result of 1st/2nd year, repeating students.They take exam for improvement in grades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Repeat_Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Result"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Result_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Includes marks-sheet/ grades of a student."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Result_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A document required to appear in exam.\nIncludes a candidate's RollNo, Name or other entities related to exam."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RollNo_Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sahiwal_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sahiwal_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sargodha_Board"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarship_Form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A form filled by students who apply for scholarship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Scholarship_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarships",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A financial aid given to student, to support him/her in education."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scholarships"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Science_Labs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Campus_Facilities"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Science_Labs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Secretary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Oversees  arrangements in institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secretary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED_PCTB_BISE_Officials"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sehrish_Noreen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Covers" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Syllabus"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Enrolls_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Fills" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Admission_Form"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo" : [ {
+    "@value" : "38402-1217098-8"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo" : [ {
+    "@value" : "20"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email" : [ {
+    "@value" : "sehrish@gmail.com"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name" : [ {
+    "@value" : "M.Ramzan"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo" : [ {
+    "@value" : "0303-34592041"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams2022"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_admission_in" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sehrish_Noreen"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sends_studentRgistration_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sports_Gala",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Events"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sports_Gala"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Person studying in an educational institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_CNIC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_PhoneNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Profession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Salary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Future_Profession/Ambition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Inter_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Interested_In_Sports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Grade/Division",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Institute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Marks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_RollNo.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Subjects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Residential_Address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A branch of knowledge, being taught in educational institues."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Subjects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Summer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are__Granted_to" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Kiran_Anwar"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabia_Ehsan"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sehrish_Noreen"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DurationH" : [ {
+    "@value" : "2-3 Months"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Summer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sunday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sunday"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superintends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Suprintendent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Exam_Center"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admits" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sehrish_Noreen"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_Commencement_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-06-01T09:30:00"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_End_Date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-03-05T02:30:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Private_College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Exams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Exams that are taken to recover after failure in Annual exams."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supplementary_Exams"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Board result of 1st/2nd year students, who take suplementary exam after failure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supplementary_Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_RollNo_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Supplementary_RollNo_Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Things that go side by side with the main process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supportive_Entities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Suprintendent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Suprintendent or manages the examination center."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Suprintendent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Syllabus refers to subjects and their outline in a degree program."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_admission_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_direction_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Deputy_Suprintendent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Suprintendent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teacher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Person who teaches in an educational institute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Teacher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaching_Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaching_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaching_Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Paople employed in eductional institutes to teache students."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Teaching_Staff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Campus_Facilities"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Winter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are__Granted_to" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Kiran_Anwar"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabia_Ehsan"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sehrish_Noreen"
+  } ],
+  "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DurationH" : [ {
+    "@value" : "10-15 Days"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays"
+  }, {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Winter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics_Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#issues",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Thing"
+  } ]
+} ]

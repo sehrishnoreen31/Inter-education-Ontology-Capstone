@@ -1,0 +1,4421 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "comments" : {
+      "en" : "This ontology represents the knowledge about Intermediate Education in Punjab, Pakistan."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "26",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "51",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Result",
+    "equivalent" : [ "28", "29" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Annual_Result",
+      "en" : "Annual_Result"
+    },
+    "comment" : {
+      "en" : "Annual board result of 1st/2nd year,  students."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Institution",
+      "en" : "Institution"
+    },
+    "subClasses" : [ "31", "32", "33", "23" ],
+    "comment" : {
+      "en" : "An organization, that follows some specific practices."
+    },
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academic_Calendar",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Academic_Calendar",
+      "en" : "Academic_Calendar"
+    },
+    "comment" : {
+      "en" : "Includes educational activities' dates."
+    },
+    "id" : "41",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Campus_Facilities",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "College_Campus_Facilities",
+      "en" : "On_Campus_Facilities"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Transport",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Transport",
+        "en" : "Transport"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Competent_Faculity",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Competent_Faculity",
+        "en" : "Competent_Faculity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Science_Labs",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Science_Labs",
+        "en" : "Science_Labs"
+      }
+    } ],
+    "comment" : {
+      "en" : "Facilities provided by institutes I.e. Colleges."
+    },
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Exams",
+    "equivalent" : [ "51", "52" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplementary_Exams",
+      "en" : "Supplementary_Exams"
+    },
+    "comment" : {
+      "en" : "Exams that are taken to recover after failure in Annual exams."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "49",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Admission",
+      "en" : "Admission"
+    },
+    "comment" : {
+      "en" : "The process or fact of entering or being allowed\nto enter a place or institution."
+    },
+    "id" : "54",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Events",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Events",
+      "en" : "Events"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Colour_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Colour_Day",
+        "en" : "Colour_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sports_Gala",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sports_Gala",
+        "en" : "Sports_Gala"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Cultural_Festival",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Cultural_Festival",
+        "en" : "Cultural_Festival"
+      }
+    } ],
+    "comment" : {
+      "en" : "A planned, private or  public ocassion."
+    },
+    "id" : "69",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarships",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scholarships",
+      "en" : "Scholarships"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Ehsaas",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Ehsaas",
+        "en" : "Ehsaas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PEEF",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "PEEF",
+        "en" : "PEEF"
+      }
+    } ],
+    "comment" : {
+      "en" : "A financial aid given to student, to support him/her in education."
+    },
+    "id" : "70",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams",
+    "equivalent" : [ "49", "51" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Annual_Exams",
+      "en" : "Annual_Exams"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Annual_Exams2022",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Annual_Exams2022"
+      }
+    } ],
+    "comment" : {
+      "en" : "Annual exams in the end of an academic year."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "52",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics_Language",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Academics_Language",
+      "en" : "Academics_Language"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "English_as_Official_Academics_Language",
+        "en" : "English_as_Official_Academics_Language"
+      }
+    } ],
+    "id" : "72",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Invagilator",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Invagilator",
+      "en" : "Invagilator"
+    },
+    "comment" : {
+      "en" : "Enforces decipline in examination hall."
+    },
+    "id" : "75",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA",
+    "equivalent" : [ "15", "18", "88" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FA",
+      "en" : "FA"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_IT",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_IT",
+        "en" : "FA_IT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_General",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_General",
+        "en" : "FA_General"
+      }
+    } ],
+    "comment" : {
+      "en" : "Two year degree Program offered after matric(10 year education)."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "87",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "subClasses" : [ "44", "60", "90", "76", "91" ],
+    "comment" : {
+      "en" : "A human being."
+    },
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BISE",
+      "en" : "BISE"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DGKhan_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "DGKhan_Board",
+        "en" : "DGKhan_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sahiwal_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sahiwal_Board",
+        "en" : "Sahiwal_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rawalpindi_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Rawalpindi_Board",
+        "en" : "Rawalpindi_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Multan_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Multan_Board",
+        "en" : "Multan_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "BISE_",
+        "en" : "BISE_"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Lahore_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Lahore_Board",
+        "en" : "Lahore_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Faisalabad_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Faisalabad_Board",
+        "en" : "Faisalabad_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gujranwala_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Gujranwala_Board",
+        "en" : "Gujranwala_Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Bahawalpur_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Bahawalpur_Board",
+        "en" : "Bahawalpur Board"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sargodha_Board",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sargodha_Board",
+        "en" : "Sargodha_Board"
+      }
+    } ],
+    "comment" : {
+      "en" : "Board of Intermediate and Secondary Education.\nOperates under Govt. of Punjab Province.\nManages exams and results of board students mainly, in Punjab."
+    },
+    "id" : "23",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subject",
+      "en" : "Subjects"
+    },
+    "subClasses" : [ "103", "104" ],
+    "comment" : {
+      "en" : "A branch of knowledge, being taught in educational institues."
+    },
+    "id" : "102",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practical_Exams",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Practical_Exams",
+      "en" : "Practical_Exams"
+    },
+    "comment" : {
+      "en" : "Practical exams (after annual exams mostly) in the end of an academic year (in Punjab, Pakistan)"
+    },
+    "id" : "57",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Compulsory_Subjects",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Compulsory_Subjects",
+      "en" : "Compulsory_Subjects"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Comp_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Physics_Comp_Subjects",
+        "en" : "ICS_Physics_Comp_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Statistics_Comp_Sujects",
+        "en" : "ICS_Statistics_Comp_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Economics_Comp_Sujects",
+        "en" : "ICS_Economics_Comp_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_Comp_Sujects",
+        "en" : "FA_Comp_Sujbects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FAIT_Comp_Sujects",
+        "en" : "FAIT_Comp_Sujbects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Engineering_Comp_Sujects",
+        "en" : "FSc_Pre_Engineering_Comp_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Comp_Sujects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Medical_Comp_Sujects",
+        "en" : "FSc_Pre_Medical_Comp_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Comp_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_Comp_Subjects",
+        "en" : "I.Com_Comp_Subjects"
+      }
+    } ],
+    "comment" : {
+      "en" : "Compulsory Subjects are essential for completeing the relevant degree."
+    },
+    "id" : "104",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Country",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Pakistan",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Pakistan",
+        "en" : "Pakistan"
+      }
+    } ],
+    "comment" : {
+      "en" : "A sovereign homeland with a border."
+    },
+    "id" : "113",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Teaching_Staff",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non_Teaching_Staff",
+      "en" : "Non_Teaching_Staff"
+    },
+    "subClasses" : [ "115", "116", "117" ],
+    "comment" : {
+      "en" : "Employees in educational intitues other than the teachers."
+    },
+    "id" : "90",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Geographics",
+      "en" : "Geographics"
+    },
+    "subClasses" : [ "113", "24", "120", "121" ],
+    "comment" : {
+      "en" : "Represents places in planet Earth."
+    },
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS",
+    "equivalent" : [ "15", "18", "87" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ICS",
+      "en" : "ICS"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Economics",
+        "en" : "ICS_Economics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Physics",
+        "en" : "ICS_Physics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Statistics",
+        "en" : "ICS_Statistics"
+      }
+    } ],
+    "comment" : {
+      "en" : "Two year degree Program offered after matric(10 year education)."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "88",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PHED",
+      "en" : "PHED"
+    },
+    "comment" : {
+      "en" : "Punjab Higher Education Department. Operates under Govt. of Punjab Province."
+    },
+    "id" : "32",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Result",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Board_Result",
+      "en" : "Board_Result"
+    },
+    "subClasses" : [ "28", "29", "26" ],
+    "comment" : {
+      "en" : "Board Results are annouced by Board of Intemediate and Secondary Education (BISE) after exams."
+    },
+    "id" : "27",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Class_",
+      "en" : "Classes"
+    },
+    "subClasses" : [ "82", "79" ],
+    "comment" : {
+      "en" : "Intermediate Education commonly comprises two years of time span and two classes(1st year and 2nd year).\nSome Intermediate programs can have  3 years duration also."
+    },
+    "id" : "80",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#1st_Year",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "1st_Year",
+      "en" : "1st_Year"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class11",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Class11",
+        "en" : "Class11"
+      }
+    } ],
+    "comment" : {
+      "en" : "11th class in college level."
+    },
+    "id" : "79",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Datesheet",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Datesheet",
+      "en" : "Datesheet"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Datesheet2022",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Datesheet2022",
+        "en" : "Datesheet2022"
+      }
+    } ],
+    "comment" : {
+      "en" : "Includes exams schedule."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practicals_Advisor_at_College",
+    "equivalent" : [ "146" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Practicals_Advisor_at_College",
+      "en" : "Practicals_Advisor_at_College"
+    },
+    "comment" : {
+      "en" : "Teaches students about practical work."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "145",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Elective_Subjects",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elective_Subjects",
+      "en" : "Elective_Subjects"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FAIT_Elective_Subjects",
+        "en" : "FAIT_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_Elective_Subjects",
+        "en" : "I.Com_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Economics_Elective_Subjects",
+        "en" : "ICS_Economics_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Medical_Elective_Subjects",
+        "en" : "FSc_Pre_Medical_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Physics_Elective_Subjects",
+        "en" : "ICS_Physics_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_Elective_Subjects",
+        "en" : "FA_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Statistics_Elective_Subjects",
+        "en" : "ICS_Statistics_Elective_Subjects"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering_Elective_Subjects",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Engineering_Elective_Subjects",
+        "en" : "FSc_Pre_Engineering_Elective_Subjects"
+      }
+    } ],
+    "comment" : {
+      "en" : "Elective subject are optional, not compulsory."
+    },
+    "id" : "103",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Suprintendent",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Suprintendent",
+      "en" : "Suprintendent"
+    },
+    "comment" : {
+      "en" : "Suprintendent or manages the examination center."
+    },
+    "id" : "162",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Division",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Division",
+      "en" : "District"
+    },
+    "comment" : {
+      "en" : "Area of the country, shorter than province."
+    },
+    "id" : "121",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_RollNo_Slip",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplementary_RollNo_Slip"
+    },
+    "comment" : {
+      "en" : "Supplementary_RollNo_Slip"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Exams",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Board_Exams",
+      "en" : "Board_Exams"
+    },
+    "subClasses" : [ "49", "51", "52", "57" ],
+    "comment" : {
+      "en" : "Exams that students (in Punjab, Pakistan) take every year."
+    },
+    "id" : "50",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reapeat_RollNo_Slip",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reapeat_RollNo_Slip",
+      "en" : "Reapeat_RollNo_Slip"
+    },
+    "comment" : {
+      "en" : "RollNo slip for failed students who want to improve grades."
+    },
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Province",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Province",
+      "en" : "Province"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Punjab",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Punjab",
+        "en" : "Punjab"
+      }
+    } ],
+    "comment" : {
+      "en" : "An administrative part of a country."
+    },
+    "id" : "24",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Result",
+    "equivalent" : [ "29", "26" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Repeat_Result",
+      "en" : "Repeat_Result"
+    },
+    "comment" : {
+      "en" : "Board result of 1st/2nd year, repeating students.They take exam for improvement in grades."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "28",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PHED_PCTB_BISE_Officials",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PHED_PCTB_BISE_Officials",
+      "en" : "PHED_PCTB_BISE_Officials"
+    },
+    "subClasses" : [ "59", "62" ],
+    "comment" : {
+      "en" : "Official/ authorities in PHED, PCTB and BISE."
+    },
+    "id" : "60",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com",
+    "equivalent" : [ "18", "88", "87" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "I.Com",
+      "en" : "I.Com"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_",
+        "en" : "I.Com_"
+      }
+    } ],
+    "comment" : {
+      "en" : "Two year degree Program offered after matric(10 year education)."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supportive_Entity",
+      "en" : "Supportive_Entities"
+    },
+    "subClasses" : [ "2", "41" ],
+    "comment" : {
+      "en" : "Things that go side by side with the main process."
+    },
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Admission_Form",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "College_Admission_Form",
+      "en" : "College_Admission_Form"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Admission_Form",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_Admission_Form",
+        "en" : "I.Com_Admission_Form"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Admission_Forn",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Admission_Forn",
+        "en" : "FSc_Admission_Form"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Admission_Form",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Admission_Form",
+        "en" : "ICS_Admission_Form"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Admission_Form",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_Admission_Form",
+        "en" : "FA_Admission_Form"
+      }
+    } ],
+    "comment" : {
+      "en" : "Form that  is filled by students or their guardians to take admission in an educational institute."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Document",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document",
+      "en" : "Documents"
+    },
+    "subClasses" : [ "66", "68", "7", "37", "20", "1", "4" ],
+    "comment" : {
+      "en" : "Paper that provides some information."
+    },
+    "id" : "2",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Board_Registration",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Board_Registration",
+      "en" : "Board_Registration"
+    },
+    "comment" : {
+      "en" : "Students need to register themselves in \"Board of Intermediate and Secondary Education Punjab\", in order to appear in exams."
+    },
+    "id" : "170",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "202",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#RollNo_Slip",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RollNo_Slip",
+      "en" : "RollNo_Slip"
+    },
+    "subClasses" : [ "6", "9", "11", "13" ],
+    "comment" : {
+      "en" : "A document required to appear in exam.\nIncludes a candidate's RollNo, Name or other entities related to exam."
+    },
+    "id" : "7",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Form",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Registration_Form",
+      "en" : "Registration_Form"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Registration_Form",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Registration_Form",
+        "en" : "FSc_Registration_Form"
+      }
+    } ],
+    "comment" : {
+      "en" : "A form that is filled and submitted by a candidate to an institute to get membership of that particular institute."
+    },
+    "id" : "37",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Holidays",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Holidays",
+      "en" : "Holidays"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Winter",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Winter",
+        "en" : "Winter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Iqbal_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Iqbal_Day",
+        "en" : "Iqbal_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabiulawal",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Rabiulawal",
+        "en" : "Rabiulawal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Quaid_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Quaid_Day",
+        "en" : "Quid_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sunday",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sunday",
+        "en" : "Sunday"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Summer",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Summer",
+        "en" : "Summer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Eid",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Eid",
+        "en" : "Eid"
+      }
+    } ],
+    "comment" : {
+      "en" : "A specific day when all business education and other activities are suspended. \nHoliday is a day of recreation."
+    },
+    "id" : "183",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#2nd_Year",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "2nd_Year",
+      "en" : "2nd_Year"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class12",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Class12",
+        "en" : "Class12"
+      }
+    } ],
+    "comment" : {
+      "en" : "12th class in college level."
+    },
+    "id" : "82",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supplementary_Result",
+    "equivalent" : [ "28", "26" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplementary_Result",
+      "en" : "Supplementary_Result"
+    },
+    "comment" : {
+      "en" : "Board result of 1st/2nd year students, who take suplementary exam after failure."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "29",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "148",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#AnnualExam_RollNo_Slip",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnnualExam_RollNo_Slip",
+      "en" : "AnnualExam_RollNo_Slip"
+    },
+    "comment" : {
+      "en" : "Roll no slip to appear in annual exam."
+    },
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inter_Program",
+      "en" : "Inter_Programs"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Engineering",
+        "en" : "FSc_Pre_Engineering"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_IT",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_IT",
+        "en" : "FA_IT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Economics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Economics",
+        "en" : "ICS_Economics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_",
+        "en" : "I.Com_"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Physics",
+        "en" : "ICS_Physics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_General",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_General",
+        "en" : "FA_General"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Statistics",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Statistics",
+        "en" : "ICS_Statistics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Medical",
+        "en" : "FSc_Pre_Medical"
+      }
+    } ],
+    "subClasses" : [ "15", "18", "88", "87" ],
+    "comment" : {
+      "en" : "Intermdiate Programs start after 10 years of education. \nThey commonly include class 11th and 10th.\nI.e. FSc, ICS, FA, I.com"
+    },
+    "id" : "16",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Lab_Attendant",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lab_Attendant",
+      "en" : "Lab_Attendant"
+    },
+    "comment" : {
+      "en" : "Mnages the lab."
+    },
+    "id" : "115",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Secretary",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Secretary",
+      "en" : "Secretary"
+    },
+    "comment" : {
+      "en" : "Oversees  arrangements in institute."
+    },
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Private_College",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Private_College",
+      "en" : "Private_College"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Reader_College"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Superior_College"
+      }
+    } ],
+    "comment" : {
+      "en" : "Colleges that are funded and regulated by private organizations."
+    },
+    "id" : "151",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Exam_Center",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exam_Center",
+      "en" : "Exam_Center"
+    },
+    "comment" : {
+      "en" : "Place where exam is conducted."
+    },
+    "id" : "120",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Past_Papers",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Past_Papers",
+      "en" : "Past_Papers"
+    },
+    "comment" : {
+      "en" : "Previous papers of a class/grade."
+    },
+    "id" : "66",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaching_Staff",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Teaching_Staff",
+      "en" : "Teaching_Staff"
+    },
+    "subClasses" : [ "145", "146" ],
+    "comment" : {
+      "en" : "Paople employed in eductional institutes to teache students."
+    },
+    "id" : "91",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Practicals_RollNo_Slip",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Practicals_RollNo_Slip",
+      "en" : "Practicals_RollNo_Slip"
+    },
+    "comment" : {
+      "en" : "Roll no slip to appear in practical exam."
+    },
+    "id" : "13",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "245",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PCTB",
+      "en" : "PCTB"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PCTB_",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "PCTB_",
+        "en" : "PCTB_"
+      }
+    } ],
+    "comment" : {
+      "en" : "Punjab Curriculum and textbook Board, operates under Govt. of Punjab Province,\nPCTB provides the syllabus for students in Pujab Govt. and affiliated institutes."
+    },
+    "id" : "33",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Scholarship_Form",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scholarship_Form",
+      "undefined" : "Scholarship_Form"
+    },
+    "comment" : {
+      "undefined" : "A form filled by students who apply for scholarship."
+    },
+    "id" : "68",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non_Academics",
+      "en" : "Non_Academics"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Transport",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Transport",
+        "en" : "Transport"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Winter",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Winter",
+        "en" : "Winter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Iqbal_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Iqbal_Day",
+        "en" : "Iqbal_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Ehsaas",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Ehsaas",
+        "en" : "Ehsaas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Colour_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Colour_Day",
+        "en" : "Colour_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Science_Labs",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Science_Labs",
+        "en" : "Science_Labs"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabiulawal",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Rabiulawal",
+        "en" : "Rabiulawal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Quaid_Day",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Quaid_Day",
+        "en" : "Quid_Day"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#PEEF",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "PEEF",
+        "en" : "PEEF"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Eid",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Eid",
+        "en" : "Eid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Cultural_Festival",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Cultural_Festival",
+        "en" : "Cultural_Festival"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Competent_Faculity",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Competent_Faculity",
+        "en" : "Competent_Faculity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sunday",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sunday",
+        "en" : "Sunday"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sports_Gala",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sports_Gala",
+        "en" : "Sports_Gala"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Summer",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Summer",
+        "en" : "Summer"
+      }
+    } ],
+    "subClasses" : [ "47", "69", "70", "183" ],
+    "comment" : {
+      "en" : "Co-curricular activities in educational institutes."
+    },
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Deputy_Suprintendent",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Deputy_Suprintendent",
+      "en" : "Deputy_Suprintendent"
+    },
+    "comment" : {
+      "en" : "Takes directions form Suprintendent."
+    },
+    "id" : "185",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teacher",
+    "equivalent" : [ "145" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Teacher",
+      "en" : "Teacher"
+    },
+    "comment" : {
+      "en" : "Person who teaches in an educational institute."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "146",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Repeat_Exams",
+    "equivalent" : [ "49", "52" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Repeat_Exams",
+      "en" : "Reapeat_Exams"
+    },
+    "comment" : {
+      "en" : "Exams for improvement in grades."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "51",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Chairman",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chairman",
+      "en" : "Chairman"
+    },
+    "comment" : {
+      "en" : "Head of an institute."
+    },
+    "id" : "62",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Examination_Staff",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Examination_Staff",
+      "en" : "Examination_Staff"
+    },
+    "subClasses" : [ "185", "75", "162" ],
+    "comment" : {
+      "en" : "People involved in conducting the examination."
+    },
+    "id" : "76",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Government_College",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Government_College",
+      "en" : "Government_College"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Govt_College"
+      }
+    } ],
+    "comment" : {
+      "en" : "Colleges that are funded and regulated by Govt."
+    },
+    "id" : "153",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc",
+    "equivalent" : [ "15", "88", "87" ],
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FSc",
+      "en" : "FSc"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Engineering",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Engineering",
+        "en" : "FSc_Pre_Engineering"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Pre_Medical",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Pre_Medical",
+        "en" : "FSc_Pre_Medical"
+      }
+    } ],
+    "comment" : {
+      "en" : "Two year degree Program offered after matric(10 year education)."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "18",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Accounts_Staff",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Accounts_Staff",
+      "en" : "Accounts_Staff"
+    },
+    "comment" : {
+      "en" : "Manages the financial resources of an Institue."
+    },
+    "id" : "117",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Academics",
+      "en" : "Academics"
+    },
+    "subClasses" : [ "16", "54", "170", "50", "80", "72", "27", "102", "160" ],
+    "comment" : {
+      "en" : "Anything related to education."
+    },
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Administrative_Staff",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Administrative_Staff",
+      "en" : "Administrative_Staff"
+    },
+    "comment" : {
+      "en" : "Responsible for overall admiinistration of an institute."
+    },
+    "id" : "116",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Result_Card",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Result_Card",
+      "en" : "Result_Card"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Result_Card",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Result_Card",
+        "en" : "FSc_Result_Card"
+      }
+    } ],
+    "comment" : {
+      "en" : "Includes marks-sheet/ grades of a student."
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Syllabus",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Syllabus",
+      "en" : "Syllabus"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Physics_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Physics_Syllabus",
+        "en" : "ICS_Physics_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FA_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FA_Syllabus",
+        "en" : "FA_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Stats_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Stats_Syllabus",
+        "en" : "ICS_Stats_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FAIT_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FAIT_Syllabus",
+        "en" : "FAIT_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Med_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Med_Syllabus",
+        "en" : "FSc_Med_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#ICS_Eco_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "ICS_Eco_Syllabus",
+        "en" : "ICS_Eco_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#I.Com_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "I.Com_Syllabus",
+        "en" : "I.Com_Syllabus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#FSc_Engi_Syllabus",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "FSc_Engi_Syllabus",
+        "en" : "FSc_Engi_Syllabus"
+      }
+    } ],
+    "comment" : {
+      "en" : "Syllabus refers to subjects and their outline in a degree program."
+    },
+    "id" : "160",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Student",
+      "en" : "Student"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Kiran_Anwar",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Kiran_Anwar",
+        "en" : "Kiran_Anwar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sehrish_Noreen",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Sehrish_Noreen",
+        "en" : "Sehrish_Noreen"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Rabia_Ehsan",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Rabia_Ehsan",
+        "en" : "Rabia_Ehsan"
+      }
+    } ],
+    "comment" : {
+      "en" : "Person studying in an educational institute."
+    },
+    "id" : "44",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "College"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Govt_College"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Superior_College"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College",
+      "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+      "labels" : {
+        "IRI-based" : "Reader_College"
+      }
+    } ],
+    "subClasses" : [ "151", "153" ],
+    "id" : "31",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "211",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "227",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "239",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "246",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "247",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "248",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "250",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "292",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "301",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "302",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "304",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "305",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "306",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "307",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "7",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Session",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "Session"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Operates_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "Operates_in"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#issues",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "issues"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Grade/Division",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "Student_Matric_Grade/Division"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_YearofPassing",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "Candidate_Matric_YearofPassing"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "Offerd_by"
+    },
+    "domain" : "16",
+    "subproperty" : [ "40" ],
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provide_facilities_for",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Provide_facilities_for"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "range" : "2",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "50",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "50",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "60",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "42",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "2",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "2",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Institute",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "Student_Matric_Institute"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Sends_studentRgistration_to",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "Sends_studentRgistration_to"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "Offerd_by_B"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "range" : "80",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "80",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "50",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Future_Profession/Ambition",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "Student_Future_Profession/Ambition"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Marks",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "Student_Matric_Marks"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Previous_Board",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "Candidate_Previous_Board"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_admission_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "Takes_admission_in"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Conducts",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "Conducts"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Father_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "Candidate_Father_Name"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Group",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "Subject_Group"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email_A",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "Student_Email_A"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Inter_Subjects",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "Student_Inter_Subjects"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_Commencement_Date",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "Class_Commencement_Date"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Home_Address",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "Candidate_Home_Address"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_ContactNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "Candidate_ContactNo."
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Duration",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "Duration"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name_A",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "Student_Father_Name_A"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo_A",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "Student_PhoneNo_A"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Enrolls_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "Enrolls_in"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Registration_Year",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "Registration_Year"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_Marks",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "Candidate_Matric_Marks"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_NameI",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "Subject_NameI"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Class_End_Date",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "Class_End_Date"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Comprise",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "Comprise"
+    },
+    "domain" : "16",
+    "attributes" : [ "inverse functional", "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#has",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "has"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_PhoneNo",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "Student_PhoneNo"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Belongs_to",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "Belongs_to"
+    },
+    "domain" : "89",
+    "attributes" : [ "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Degrees_Offered",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "Degrees_Offered"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Is_follwed_by",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Is_follwed_by"
+    },
+    "domain" : "41",
+    "attributes" : [ "object" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admmision_In_Class",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "Admmision_In_Class"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Manages",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "Manages"
+    },
+    "domain" : "76",
+    "attributes" : [ "object" ],
+    "id" : "149"
+  }, {
+    "range" : "31",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "31",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "55",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "55",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "55",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "55",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "55",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "55",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Includes",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "Includes"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admits",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Admits"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "Student_College_RollNo"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "164"
+  }, {
+    "range" : "76",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "55",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "55",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "55",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Covers",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "Covers"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "171"
+  }, {
+    "range" : "91",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Location",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "College_Location"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "174"
+  }, {
+    "range" : "48",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Disability",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "Candidate_Disability"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "177"
+  }, {
+    "range" : "48",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Religion",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "Candidate_Religion"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "180"
+  }, {
+    "range" : "48",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "76",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "16",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "16",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "91",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are__Granted_to",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Are__Granted_to"
+    },
+    "domain" : "48",
+    "attributes" : [ "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Registration_Fee",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "Candidate_Registration_Fee"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "Student_BFormNo"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Announces",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "Announces"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Last_Date_of_Registration",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "Last_Date_of_Registration"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Opens_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "Opens_in"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provides_the",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "Provides_the"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "Takes"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Email",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "Student_Email"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_College_RollNo_A",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "206",
+    "label" : {
+      "IRI-based" : "Student_College_RollNo_A"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_CNIC",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "Student_Father_CNIC"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Provides_students_with",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "Provides_students_with"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_College_RollNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "Candidate_College_RollNo."
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Matric_Board_RollNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "202",
+    "label" : {
+      "IRI-based" : "Candidate_Matric_Board_RollNo."
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Interested_In_Sports",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "Student_Interested_In_Sports"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "215"
+  }, {
+    "range" : "42",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "42",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Makes",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "Makes"
+    },
+    "domain" : "33",
+    "attributes" : [ "object" ],
+    "id" : "219"
+  }, {
+    "range" : "89",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "89",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Year",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "Student_Matric_Year"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "range" : "42",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "228",
+    "label" : {
+      "IRI-based" : "Student_Name"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Subject_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "Subject_Name"
+    },
+    "domain" : "102",
+    "attributes" : [ "datatype" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Are_Part_of",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "Are_Part_of"
+    },
+    "domain" : "102",
+    "attributes" : [ "inverse functional", "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Category",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "Category"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_PhoneNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "Student_Father_PhoneNo."
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Course",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "Course"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#DurationH",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "DurationH"
+    },
+    "domain" : "183",
+    "attributes" : [ "datatype" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superintends",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "Superintends"
+    },
+    "domain" : "162",
+    "attributes" : [ "object" ],
+    "id" : "244"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Providse_Support_to",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "Providse_Support_to"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "Candidate_Name"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "247"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Subjects",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "Student_Matric_Subjects"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "248"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_RollNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "Student_Matric_RollNo."
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Date_of_Birth",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "Candidate_Date_of_Birth"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Approves",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "Approves"
+    },
+    "domain" : "23",
+    "attributes" : [ "object" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Profession",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "Student_Father_Profession"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Teaches",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Teaches"
+    },
+    "domain" : "91",
+    "attributes" : [ "object" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Gets_registered_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "Gets_registered_in"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#SyllabusURL",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "245",
+    "label" : {
+      "IRI-based" : "SyllabusURL"
+    },
+    "domain" : "160",
+    "attributes" : [ "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Matric_Board",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "257",
+    "label" : {
+      "IRI-based" : "Student_Matric_Board"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Salary",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "Student_Father_Salary"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Required_Qualification",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "Candidate_Required_Qualification"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "265"
+  }, {
+    "range" : "27",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "114",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Father_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "Student_Father_Name"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "269"
+  }, {
+    "range" : "27",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "114",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "range" : "114",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_BFormNo_A",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "Student_BFormNo_A"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "273"
+  }, {
+    "range" : "114",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "range" : "48",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "89",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "42",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#College_Name",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "242",
+    "label" : {
+      "IRI-based" : "College_Name"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "278"
+  }, {
+    "range" : "30",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "48",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "89",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "42",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Candidate_Gender",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "Candidate_Gender"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "283"
+  }, {
+    "range" : "48",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Fills",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "Fills"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "285"
+  }, {
+    "range" : "114",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "range" : "30",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "90",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "range" : "102",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "90",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "90",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Takes_direction_from",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "Takes_direction_from"
+    },
+    "domain" : "185",
+    "attributes" : [ "object" ],
+    "id" : "292"
+  }, {
+    "range" : "89",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "89",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission_FormNo.",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "Admission_FormNo."
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "295"
+  }, {
+    "range" : "102",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "89",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "range" : "89",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "range" : "89",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Maintains_discipline_in",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "Maintains_discipline_in"
+    },
+    "domain" : "75",
+    "attributes" : [ "object" ],
+    "id" : "300"
+  }, {
+    "range" : "30",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Admission_Date",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "221",
+    "label" : {
+      "IRI-based" : "Admission_Date"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "302"
+  }, {
+    "range" : "30",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Student_Residential_Address",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "Student_Residential_Address"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "304"
+  }, {
+    "iri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Hafiz_e_Quran",
+    "baseIri" : "http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "Hafiz_e_Quran"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "305"
+  }, {
+    "range" : "30",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  } ]
+}
