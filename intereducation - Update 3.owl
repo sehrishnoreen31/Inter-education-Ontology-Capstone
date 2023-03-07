@@ -188,16 +188,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by_B">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Offerd_by"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Inter_Program"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Opens_in -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Opens_in">
@@ -915,6 +905,7 @@
     <!-- http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"/>
         <rdfs:comment xml:lang="en">Anything related to education.</rdfs:comment>
         <rdfs:label xml:lang="en">Academics</rdfs:label>
     </owl:Class>
@@ -1214,6 +1205,7 @@ Some Intermediate programs can have  3 years duration also.</rdfs:comment>
     <!-- http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"/>
         <rdfs:comment xml:lang="en">Represents places in planet Earth.</rdfs:comment>
         <rdfs:label xml:lang="en">Geographics</rdfs:label>
     </owl:Class>
@@ -1892,7 +1884,6 @@ Physical Education</Subject_Name>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -1942,7 +1933,6 @@ Physical Education</Subject_NameI>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2012,7 +2002,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 years</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2064,7 +2053,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2167,7 +2155,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2261,7 +2248,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2313,7 +2299,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2376,7 +2361,6 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Govt_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Reader_College"/>
         <Offerd_by rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Superior_College"/>
-        <Offerd_by_B rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#BISE_"/>
         <has rdf:resource="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#English_as_Official_Academics_Language"/>
         <Duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Year</Duration>
         <Subject_NameI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Urdu
@@ -2714,31 +2698,8 @@ https://drive.google.com/file/d/1J6tXaCG5R0GV_1PsGXGNVne8BKF6DMu0/view</Syllabus
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
         <rdfs:label xml:lang="en">Thing</rdfs:label>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Academics"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Geographics"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Institution"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Non_Academics"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Person"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sehrish/ontologies/2023/1/interedu#Supportive_Entity"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
